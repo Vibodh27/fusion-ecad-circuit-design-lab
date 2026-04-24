@@ -1,0 +1,24 @@
+
+1.	Design a circuit to safely operate an LED using a battery, ensuring it does not get damaged.
+2.	Design a circuit where a switch can control the ON/OFF state of an LED.
+3.	Design a circuit where two LEDs are connected such that both must glow using a single current path.
+4.	Design a circuit where two LEDs are connected such that failure of one does not affect the other.
+5.	Design a circuit where LED brightness is intentionally reduced without changing the battery.
+
+6.	Design a circuit where LED glows only when both switches are ON. 
+7.	Design a circuit where LED glows if any one of two switches is ON. 
+8.	Design a circuit where LED is OFF when switch is ON and ON when switch is OFF. 
+9.	Design a circuit where LED turns OFF only when both switches are ON, and remains ON otherwise. 
+10.	Design a circuit where LED glows only when both switches are OFF. 
+11.	Design a circuit where LED glows only when exactly one switch is ON (not both). 
+
+12.	Design a circuit where LED turns ON after a noticeable delay when switch is turned ON.
+13.	Design a circuit where LED remains ON for a short duration after switch is turned OFF.
+14.	Design a circuit where LED gradually increases in brightness when power is applied.
+15.	Design a circuit where LED gradually turns OFF instead of switching OFF instantly.
+16.	Design a circuit where two LEDs glow with different timing using RC components.
+
+17.	Design a circuit where switching action and capacitor together control LED behavior.
+18.	Design a circuit where LED clearly demonstrates both charging and discharging of a capacitor.
+19.	Design a compact circuit (minimum components) to create a delay in LED response.
+20.	Design a circuit where one LED responds quickly and another responds slowly using RC combinations.

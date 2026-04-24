@@ -1,0 +1,115 @@
+1. Basic LED
+
+Ba+ → Resistor → LED → Ba−
+
+ 2. Switch LED
+
+Ba+ → Switch → Resistor → LED → Ba−
+
+ 3. Two LEDs (Series)
+
+Ba+ → Resistor → LED1 → LED2 → Ba−
+
+ 4. Two LEDs (Parallel)
+
+Ba+ → Resistor → (LED1 → Ba−)
+                    ↘ (LED2 → Ba−)
+
+ 5. Dim LED
+
+Ba+ → High R → LED → Ba−
+
+ LOGIC BASED
+ 6. AND Logic (2 switches)
+
+ BOTH switches must be ON
+Ba+ → Switch1 → Switch2 → Resistor → LED → Ba−
+
+ 7. OR Logic
+
+ ANY one switch ON
+Ba+ → (Switch1 → Resistor → LED → Ba−)
+                    ↘ (Switch2 → Resistor → LED → Ba−)
+
+ 8. NOT Logic
+
+ LED OFF when switch ON
+Ba+ → Resistor → LED → Switch → Ba−
+
+ 9. NAND Logic
+
+ OFF only when both ON
+Ba+ → (Switch1 parallel Switch2) → Resistor → LED → Ba−
+
+ 10. NOR Logic
+
+ ON only when both OFF
+Ba+ → Resistor → LED → (Switch1 parallel Switch2) → Ba−
+
+ 11. XOR Logic
+
+ ON when only one switch ON
+ (approx using paths)
+Ba+ → Switch1 → Resistor → LED → Ba−
+Ba+ → Switch2 → Resistor → LED → Ba−
+(avoid both ON path using placement)
+
+ RC BASED
+ 12. Delay ON
+
+Ba+ → Switch → Resistor → Node
+Node → Capacitor → Ba−
+Node → LED → Ba−
+
+ 13. Delay OFF
+
+Ba+ → Switch → Node
+Node → LED → Ba−
+Node → Capacitor → Ba−
+
+ 14. Slow ON
+
+Ba+ → Resistor → Node
+Node → Capacitor → Ba−
+Node → LED → Ba−
+
+ 15. Slow OFF
+
+Ba+ → Switch → Node
+Node → LED → Ba−
+Node → Capacitor → Ba−
+
+ 16. Two LEDs different delay
+
+Ba+ → R1 → Node1 → LED1 → Ba−
+Node1 → C1 → Ba−
+
+Ba+ → R2 → Node2 → LED2 → Ba−
+Node2 → C2 → Ba−
+
+
+ 17. RC + Switch control
+
+Ba+ → Switch → Resistor → Node
+Node → Capacitor → Ba−
+Node → LED → Ba−
+
+ 18. Charging/Discharging visible
+
+Ba+ → Switch → Resistor → Node
+Node → Capacitor → Ba−
+Node → LED → Ba−
+
+ 19. Compact delay
+
+Ba+ → Switch → Resistor → Node
+Node → Capacitor → Ba−
+Node → LED → Ba−
+
+ 20. Fast vs Slow
+
+Ba+ → R1 → Node1 → LED1 → Ba−
+Node1 → C1 → Ba−
+
+Ba+ → R2 → Node2 → LED2 → Ba−
+Node2 → C2 → Ba−
