@@ -1,0 +1,19 @@
+PROBLEM STATEMENTS (15)
+1.	Design a circuit where a transistor is used to turn ON an LED using a control signal. 
+2.	Design a circuit where a switch controls a transistor to turn ON a load. 
+3.	Design a circuit where the transistor remains OFF when no input is given. 
+4.	Design a circuit where the transistor remains ON continuously. 
+5.	Design a circuit where a transistor is used to control a load using an input signal. 
+6.	
+7.	Design a circuit where a transistor controls an LED safely using a base resistor. 
+8.	Design a circuit where a transistor drives a motor with proper base current limitation. 
+9.	Design a circuit where a transistor remains OFF using a pull-down resistor at the base. 
+10.	Design a circuit where a transistor remains ON by default using a pull-up resistor. 
+11.	Design a circuit where one resistor controls base current and another controls LED current. 
+12.	
+13.	Design a circuit where an LED turns ON after a delay using resistor and capacitor. 
+14.	Design a circuit where an LED remains ON for some time after the input is removed. 
+15.	Design a circuit where LED brightness gradually increases using RC components. 
+16.	Design a circuit where LED gradually turns OFF using RC components. 
+17.	Design a circuit where a resistor-capacitor network controls transistor switching behavior. 
+

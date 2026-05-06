@@ -1,0 +1,73 @@
+CONNECTIONS (15)
+
+1)Ba+ → LED → Collector
+Emitter → Ba−
+Base → Input
+
+2)Ba+ → Load → Collector
+Emitter → Ba−
+Base → Switch → Ba+
+
+3)Ba+ → LED → Collector
+Emitter → Ba−
+(Base not connected)
+
+4)Ba+ → LED → Collector
+Emitter → Ba−
+Base → Ba+
+
+5)Ba+ → Load → Collector
+Emitter → Ba−
+Base → Input
+
+6)Ba+ → LED → Collector
+Emitter → Ba−
+Base → Resistor → Input
+
+7)Ba+ → Motor → Collector
+Emitter → Ba−
+Base → Resistor → Input
+
+8)Base → Resistor → Ba−
+Base → Input
+Collector → LED → Ba+
+Emitter → Ba−
+
+9)Base → Resistor → Ba+
+Base → Switch → Ba−
+Collector → LED → Ba+
+Emitter → Ba−
+
+10)Ba+ → Resistor → LED → Collector
+Emitter → Ba−
+Base → Resistor → Input
+
+11)Ba+ → Resistor → Node
+Node → Capacitor → Ba−
+Node → Base
+Collector → LED → Ba+
+Emitter → Ba−
+
+12)Base → Node
+Node → Capacitor → Ba−
+Node → Resistor → Ba+
+Collector → LED → Ba+
+Emitter → Ba−
+
+13)Ba+ → Resistor → Node
+Node → Capacitor → Ba−
+Node → Base
+Collector → LED → Ba+
+Emitter → Ba−
+
+14)Base → Node
+Node → Capacitor → Ba−
+Node → Resistor → Ba+
+Collector → LED → Ba+
+Emitter → Ba−
+
+15)Ba+ → Resistor → Node
+Node → Capacitor → Ba−
+Node → Base
+Collector → Load → Ba+
+Emitter → Ba−
