@@ -14,3 +14,26 @@ Pin 6 (THRESHOLD) → Pin 2 (TRIGGER) (connect together)
 Pin 6/2 → Capacitor (C1) → Ground
 🔹 Output (LED)
 Pin 3 (OUTPUT) → LED → Resistor → Ground
+
+
+ 
+For Monostable Circuit Connection
+🔹 Power
+Pin 8 → +VCC
+Pin 1 → GND
+🔹 Reset
+Pin 4 → +VCC
+🔹 Control Voltage
+Pin 5 → 10nF capacitor → GND
+🔹 Trigger Input
+Pin 2 → Push button → GND
+Pin 2 → Pull-up resistor → +VCC
+🔹 Timing Circuit
+Pin 6 → Node
+Pin 7 → Node
+
+Node → Resistor → +VCC
+Node → Capacitor → GND
+
+🔹 Output
+Pin 3 → LED → Resistor → GND
