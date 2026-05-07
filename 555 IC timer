@@ -1,0 +1,16 @@
+555 Timer Circuit Connection
+For Astable Connection
+🔹 Power Connections
+Pin 8 (VCC) → +9V
+Pin 1 (GND) → Ground
+🔹 Reset Pin
+Pin 4 (RESET) → +9V
+🔹 Control Voltage
+Pin 5 → Capacitor (C2 = 10nF) → Ground
+🔹 Timing Network (MAIN PART)
+Pin 7 (DISCHARGE) → R1 → +9V
+Pin 7 → R2 → Pin 6
+Pin 6 (THRESHOLD) → Pin 2 (TRIGGER) (connect together)
+Pin 6/2 → Capacitor (C1) → Ground
+🔹 Output (LED)
+Pin 3 (OUTPUT) → LED → Resistor → Ground
